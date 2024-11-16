@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  #qr-code-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #qr-code {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+  }
+  

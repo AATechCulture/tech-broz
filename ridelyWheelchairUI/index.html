@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retrieve QR Code</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="script.js"></script> <!-- Add type="module" -->
+</head>
+<body>
+  <div class="container">
+    <h1>Wheelchair Information</h1>
+    <div id="wheelchair-info">
+      <p><strong>Battery:</strong> <span id="battery">Loading...</span>%</p>
+      <p><strong>Distance:</strong> <span id="distance">Loading...</span></p>
+      <p><strong>Location:</strong> <span id="location">Loading...</span></p>
+      <p><strong>Status:</strong> <span id="status">Loading...</span></p>
+      <div id="qr-code-container">
+        <h3>QR Code:</h3>
+        <img id="qr-code" src="" alt="QR Code will appear here">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
