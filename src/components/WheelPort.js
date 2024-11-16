@@ -688,7 +688,7 @@ const WheelPort = () => {
   return (
     <div className="max-w-md mx-auto min-h-screen bg-gray-50">
       <div className="bg-white border-b px-4 py-3">
-        <h1 className="text-xl font-bold text-center">WheelPort</h1>
+        <h1 className="text-xl font-bold text-center">Ridely</h1>
       </div>
       {view === 'map' && <MapView />}
       {view === 'scanner' && (
